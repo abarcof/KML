@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2"> <NetworkLink>
+<open>1</open>
+<name>Generate KML</name>
+<LookAt>
+<longitude>-121.55487871862059</longitude>
+<latitude>38.70289001747474</latitude>
+<range>12147.66814574972</range>
+</LookAt>
+<Link>
+<viewRefreshMode>onStop</viewRefreshMode>
+<viewRefreshTime>2</viewRefreshTime>
+<href>http://ferix.water.ca.gov/arcgis/services/CVFED/Sacramento/MapServer/KmlServer?Composite=true&amp;LayerIDs=1</href>
+<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth];CAMERA=[lookatLon],[lookatLat],[lookatRange],[lookatTilt],[lookatHeading];VIEW=[horizFov],[vertFov],[horizPixels],[vertPixels],[terrainEnabled]</viewFormat>
+</Link>
+</NetworkLink>
+</kml>
