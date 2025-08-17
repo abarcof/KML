@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Barco.kml</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Style id="failed002">
 		<LineStyle>
 			<color>ff000000</color>
@@ -1072,6 +1073,16 @@
 			<styleUrl>#s_ylw-pushpin_hl180</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10100">
 		<Pair>
 			<key>normal</key>
@@ -1400,6 +1411,24 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>ff536786</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin10000">
@@ -1762,6 +1791,24 @@
 			<color>ff536786</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin003">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2122,6 +2169,20 @@
 			<color>ff536786</color>
 		</PolyStyle>
 	</Style>
+	<Placemark>
+		<name>Castle Ward Area</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-80.66250199599388,37.87795973611618,0 -80.66244652227365,37.87782861246281,0 -80.66222349793573,37.87760641211592,0 -80.66178126308093,37.87736964107498,0 -80.66112479472244,37.87738857702858,0 -80.66079491251725,37.87768114455811,0 -80.66041797952951,37.87788542081711,0 -80.65967370714786,37.87801423720597,0 -80.65925069814269,37.87802973602874,0 -80.65879312552123,37.87807923191173,0 -80.65854209887249,37.87824063509854,0 -80.65832634112148,37.87851174105349,0 -80.65800618615735,37.87875430957814,0 -80.6574703482444,37.87889046190116,0 -80.65695861805334,37.87898871217131,0 -80.656310179489,37.87901549221839,0 -80.65581458367157,37.87907182868277,0 -80.65530693725296,37.87907389638971,0 -80.654568111315,37.87905583836995,0 -80.6541047583332,37.87915658185251,0 -80.65401144373693,37.87937796105754,0 -80.65401119024358,37.87938399776005,0 -80.65415919834959,37.87962785499208,0 -80.65451451225687,37.87989793811656,0 -80.65524822076964,37.88009466390556,0 -80.65581983617216,37.88022813028608,0 -80.65618842995744,37.88031840245483,0 -80.65650881957511,37.88049188516631,0 -80.65680705686201,37.88074965392151,0 -80.6571473481449,37.88090557885922,0 -80.65794764636026,37.8810244786722,0 -80.65834725494139,37.88095702913114,0 -80.65836248671509,37.88094974988481,0 -80.65858987632784,37.88058883462968,0 -80.65858601518021,37.88022814191741,0 -80.65923502542418,37.87993064086394,0 -80.6597234912514,37.87969378297925,0 -80.66010279806096,37.87956253869166,0 -80.66051096904052,37.87954867600487,0 -80.66115950982615,37.87951251823681,0 -80.66176550568014,37.87935959623704,0 -80.66220028811705,37.87905562802253,0 -80.66242006149365,37.87858850752834,0 -80.66252185658988,37.8781719935926,0 -80.66250199599388,37.87795973611618,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
 	<Folder>
 		<name>_Castle Ward Generics</name>
 		<Placemark>
@@ -4956,7 +5017,6 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	</Folder>
 </Document>
 </kml>
